@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Afghanistan",
+    "translations": {
+      "de": "Afghanistan",
+      "es": "Afganistán",
+      "fr": "Afghanistan",
+      "ja": "アフガニスタン",
+      "it": "Afghanistan"
+    },
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG"
+  },
+  {
+    "name": "Åland Islands",
+    "translations": {
+      "de": "Åland",
+      "es": "Alandia",
+      "fr": "Åland",
+      "ja": "オーランド諸島",
+      "it": "Isole Aland"
+    },
+    "alpha2Code": "AX",
+    "alpha3Code": "ALA"
+  },
+  {
+    "name": "Belarus",
+    "translations": {
+      "de": "Weißrussland",
+      "es": "Bielorrusia",
+      "fr": "Biélorussie",
+      "ja": "ベラルーシ",
+      "it": "Bielorussia"
+    },
+    "alpha2Code": "BY",
+    "alpha3Code": "BLR"
+  },
+  {
+    "name": "Belgium",
+    "translations": {
+      "de": "Belgien",
+      "es": "Bélgica",
+      "fr": "Belgique",
+      "ja": "ベルギー",
+      "it": "Belgio"
+    },
+    "alpha2Code": "BE",
+    "alpha3Code": "BEL"
+  }
+]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.27.3/react-bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+
+    <script src="components/input.select.country.jsx"   type="text/jsx"></script>
+    <script src="application.jsx"                       type="text/jsx"></script>
+
+    <script type="text/jsx">
+        /**global DemoApplication */
+        var Input = ReactBootstrap.Input;
+        var Panel = ReactBootstrap.Panel;
+        var Well = ReactBootstrap.Well;
+
+        $.getJSON("data/counties.json", function(customCountriesData) {
+            ReactDOM.render(<DemoApplication customCountriesData={customCountriesData}/>, document.getElementById('application'));
+        });
+    </script>
+
+    <title>
+        Usage of Select Country Component at ReactJS.
+    </title>
+</head>
+<body>
+
+    <div id="application"></div>
+
+</body>
+</html>
