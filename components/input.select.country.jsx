@@ -46,7 +46,7 @@ const InputCountrySelect = React.createClass({
                 });
             }.bind(this),
             error: function (xhr, status, err) {
-                console.error(this.props.countryUrl, status, err.toString());
+                console.error(this.props.countryAPI, status, err.toString());
             }.bind(this)
         });
     },
